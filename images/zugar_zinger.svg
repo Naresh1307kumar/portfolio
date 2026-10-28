@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg-zugar" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a100f"/>
+      <stop offset="100%" stop-color="#2d1815"/>
+    </linearGradient>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg-zugar)"/>
+  <!-- Browser Chrome -->
+  <rect x="30" y="30" width="740" height="440" rx="14" fill="#110a09" stroke="#3b221f" stroke-width="1.5"/>
+  <rect x="30" y="30" width="740" height="44" rx="14" fill="#1f1412"/>
+  <circle cx="55" cy="52" r="6" fill="#ef4444"/>
+  <circle cx="75" cy="52" r="6" fill="#f59e0b"/>
+  <circle cx="95" cy="52" r="6" fill="#10b981"/>
+  <rect x="130" y="41" width="400" height="22" rx="6" fill="#110a09"/>
+  <text x="145" y="56" fill="#a8928f" font-family="Space Grotesk, sans-serif" font-size="11">https://zugarzinger.vercel.app</text>
+
+  <!-- Navbar -->
+  <rect x="50" y="94" width="700" height="48" rx="8" fill="#1f1412"/>
+  <text x="75" y="124" fill="#f59e0b" font-family="Space Grotesk, sans-serif" font-size="18" font-weight="bold">&#129473; Zugar Zinger</text>
+  <text x="520" y="123" fill="#d1b8b5" font-family="Space Grotesk, sans-serif" font-size="12">Menu</text>
+  <text x="580" y="123" fill="#d1b8b5" font-family="Space Grotesk, sans-serif" font-size="12">Special Offers</text>
+  <rect x="670" y="106" width="65" height="24" rx="12" fill="url(#gold-grad)"/>
+  <text x="683" y="122" fill="#110a09" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="bold">Cart (2)</text>
+
+  <!-- Hero Banner -->
+  <rect x="50" y="156" width="700" height="130" rx="10" fill="#261715" stroke="#4a2924"/>
+  <text x="80" y="195" fill="#ffffff" font-family="Space Grotesk, sans-serif" font-size="24" font-weight="bold">Handcrafted Delights &amp; Artisan Bakes</text>
+  <text x="80" y="222" fill="#c9aba7" font-family="Space Grotesk, sans-serif" font-size="13">Freshly baked signature cakes, gourmet pastries, and bespoke celebrations.</text>
+  <rect x="80" y="242" width="130" height="30" rx="6" fill="url(#gold-grad)"/>
+  <text x="96" y="262" fill="#110a09" font-family="Space Grotesk, sans-serif" font-size="12" font-weight="bold">Explore Menu &#8594;</text>
+
+  <!-- Product Cards -->
+  <g transform="translate(50, 302)">
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="218" height="150" rx="8" fill="#1c110f" stroke="#3b221f"/>
+    <rect x="12" y="12" width="194" height="75" rx="6" fill="#2e1916"/>
+    <text x="109" y="58" font-size="32" text-anchor="middle">&#127858;</text>
+    <text x="16" y="108" fill="#ffffff" font-family="Space Grotesk, sans-serif" font-size="13" font-weight="bold">Belgian Truffle Cake</text>
+    <text x="16" y="132" fill="#f59e0b" font-family="Space Grotesk, sans-serif" font-size="14" font-weight="bold">&#8377;650</text>
+    <rect x="145" y="115" width="60" height="22" rx="4" fill="#3b221f"/>
+    <text x="157" y="130" fill="#f59e0b" font-family="Space Grotesk, sans-serif" font-size="10" font-weight="bold">+ ADD</text>
+
+    <!-- Card 2 -->
+    <rect x="241" y="0" width="218" height="150" rx="8" fill="#1c110f" stroke="#3b221f"/>
+    <rect x="253" y="12" width="194" height="75" rx="6" fill="#2e1916"/>
+    <text x="350" y="58" font-size="32" text-anchor="middle">&#129360;</text>
+    <text x="257" y="108" fill="#ffffff" font-family="Space Grotesk, sans-serif" font-size="13" font-weight="bold">Butter Croissants</text>
+    <text x="257" y="132" fill="#f59e0b" font-family="Space Grotesk, sans-serif" font-size="14" font-weight="bold">&#8377;280</text>
+    <rect x="386" y="115" width="60" height="22" rx="4" fill="#3b221f"/>
+    <text x="398" y="130" fill="#f59e0b" font-family="Space Grotesk, sans-serif" font-size="10" font-weight="bold">+ ADD</text>
+
+    <!-- Card 3 -->
+    <rect x="482" y="0" width="218" height="150" rx="8" fill="#1c110f" stroke="#3b221f"/>
+    <rect x="494" y="12" width="194" height="75" rx="6" fill="#2e1916"/>
+    <text x="591" y="58" font-size="32" text-anchor="middle">&#127827;</text>
+    <text x="498" y="108" fill="#ffffff" font-family="Space Grotesk, sans-serif" font-size="13" font-weight="bold">Berry Tartlet Supreme</text>
+    <text x="498" y="132" fill="#f59e0b" font-family="Space Grotesk, sans-serif" font-size="14" font-weight="bold">&#8377;340</text>
+    <rect x="627" y="115" width="60" height="22" rx="4" fill="#3b221f"/>
+    <text x="639" y="130" fill="#f59e0b" font-family="Space Grotesk, sans-serif" font-size="10" font-weight="bold">+ ADD</text>
+  </g>
+</svg>

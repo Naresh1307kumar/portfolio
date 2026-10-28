@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg-paws-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="orange-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="risk-red" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg-paws-dark)"/>
+
+  <!-- Browser Chrome Window -->
+  <rect x="25" y="25" width="750" height="450" rx="14" fill="#090d16" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="25" y="25" width="750" height="42" rx="14" fill="#0f172a"/>
+  <circle cx="50" cy="46" r="6" fill="#ef4444"/>
+  <circle cx="70" cy="46" r="6" fill="#f59e0b"/>
+  <circle cx="90" cy="46" r="6" fill="#10b981"/>
+  <rect x="125" y="36" width="380" height="20" rx="5" fill="#090d16"/>
+  <text x="140" y="50" fill="#94a3b8" font-family="Space Grotesk, sans-serif" font-size="11">https://paws-predictive-ai-f-hc12.bolt.host</text>
+
+  <!-- Navigation Bar -->
+  <rect x="45" y="80" width="710" height="46" rx="8" fill="#111827" stroke="#1e293b"/>
+  <text x="65" y="108" fill="#f97316" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="bold">&#128062; PAWS</text>
+  <text x="130" y="107" fill="#e2e8f0" font-family="Space Grotesk, sans-serif" font-size="12">Predictive AI for Dog Bite Risk</text>
+  <text x="450" y="107" fill="#94a3b8" font-family="Space Grotesk, sans-serif" font-size="11">Risk Check</text>
+  <text x="525" y="107" fill="#94a3b8" font-family="Space Grotesk, sans-serif" font-size="11">Madurai Map</text>
+  <text x="610" y="107" fill="#f97316" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="bold">Team (2)</text>
+  <rect x="670" y="91" width="70" height="24" rx="12" fill="url(#orange-grad)"/>
+  <text x="682" y="107" fill="#ffffff" font-family="Space Grotesk, sans-serif" font-size="10" font-weight="bold">AI Live</text>
+
+  <!-- Left Card: AI Risk Assessment Input Form -->
+  <g transform="translate(45, 140)">
+    <rect x="0" y="0" width="340" height="315" rx="10" fill="#111827" stroke="#1e293b"/>
+    <text x="20" y="28" fill="#f97316" font-family="Space Grotesk, sans-serif" font-size="13" font-weight="bold">DOG BITE RISK ASSESSMENT</text>
+    <text x="20" y="46" fill="#94a3b8" font-family="Space Grotesk, sans-serif" font-size="10">Predictive Spatial &amp; Environmental Factors</text>
+
+    <!-- Field 1: Location -->
+    <rect x="20" y="60" width="300" height="42" rx="6" fill="#0b0f19" stroke="#1e293b"/>
+    <text x="32" y="76" fill="#64748b" font-family="Space Grotesk, sans-serif" font-size="9">TARGET CITY / ZONE</text>
+    <text x="32" y="93" fill="#ffffff" font-family="Space Grotesk, sans-serif" font-size="12">Madurai &bull; Mattuthavani Ward 4</text>
+
+    <!-- Field 2: Stray Pack Density -->
+    <rect x="20" y="112" width="300" height="42" rx="6" fill="#0b0f19" stroke="#1e293b"/>
+    <text x="32" y="128" fill="#64748b" font-family="Space Grotesk, sans-serif" font-size="9">STRAY PACK DENSITY</text>
+    <text x="32" y="145" fill="#f97316" font-family="Space Grotesk, sans-serif" font-size="12">High Density (8 &ndash; 12 Dogs Detected)</text>
+
+    <!-- Field 3: Temporal Factors -->
+    <rect x="20" y="164" width="300" height="42" rx="6" fill="#0b0f19" stroke="#1e293b"/>
+    <text x="32" y="180" fill="#64748b" font-family="Space Grotesk, sans-serif" font-size="9">TIME &amp; TEMPERATURE</text>
+    <text x="32" y="197" fill="#ffffff" font-family="Space Grotesk, sans-serif" font-size="12">Night (9:30 PM) &bull; 31&#176;C &bull; Food Source Active</text>
+
+    <!-- Submit button -->
+    <rect x="20" y="218" width="300" height="34" rx="6" fill="url(#orange-grad)"/>
+    <text x="95" y="240" fill="#ffffff" font-family="Space Grotesk, sans-serif" font-size="12" font-weight="bold">Calculate Risk Score &#8594;</text>
+
+    <!-- Team attribution badge -->
+    <rect x="20" y="264" width="300" height="38" rx="6" fill="#090d16" stroke="#f97316" stroke-dasharray="3,3"/>
+    <text x="32" y="280" fill="#f97316" font-family="Space Grotesk, sans-serif" font-size="9" font-weight="bold">ENGINEERED BY TEAM PAWS (2 MEMBERS)</text>
+    <text x="32" y="294" fill="#cbd5e1" font-family="Space Grotesk, sans-serif" font-size="10" font-weight="bold">Rishiekumar.M &amp; Nareshkumar.R</text>
+  </g>
+
+  <!-- Right Card: AI Prediction Results Gauge -->
+  <g transform="translate(405, 140)">
+    <rect x="0" y="0" width="350" height="315" rx="10" fill="#111827" stroke="#1e293b"/>
+    
+    <!-- Top badge -->
+    <rect x="20" y="16" width="130" height="22" rx="11" fill="rgba(239, 68, 68, 0.15)" stroke="#ef4444"/>
+    <text x="32" y="31" fill="#ef4444" font-family="Space Grotesk, sans-serif" font-size="10" font-weight="bold">&#9679; HIGH RISK ZONE</text>
+    <text x="220" y="31" fill="#94a3b8" font-family="Space Grotesk, sans-serif" font-size="10">Accuracy: 89.4%</text>
+
+    <!-- Circular Gauge Center -->
+    <circle cx="175" cy="115" r="54" fill="none" stroke="#1e293b" stroke-width="10"/>
+    <circle cx="175" cy="115" r="54" fill="none" stroke="url(#risk-red)" stroke-width="10" stroke-dasharray="339" stroke-dashoffset="85" stroke-linecap="round"/>
+    <text x="175" y="112" text-anchor="middle" fill="#ffffff" font-family="Space Grotesk, sans-serif" font-size="28" font-weight="bold">78%</text>
+    <text x="175" y="130" text-anchor="middle" fill="#ef4444" font-family="Space Grotesk, sans-serif" font-size="10" font-weight="bold">ELEVATED RISK</text>
+
+    <!-- Alert Advice Box -->
+    <rect x="20" y="185" width="310" height="60" rx="6" fill="#090d16" stroke="#ef4444" stroke-width="1"/>
+    <text x="32" y="206" fill="#f87171" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="bold">&#9888; Community Advisory Alert</text>
+    <text x="32" y="222" fill="#cbd5e1" font-family="Space Grotesk, sans-serif" font-size="10">High territorial agitation. Avoid solo night transit near ward market.</text>
+    <text x="32" y="236" fill="#94a3b8" font-family="Space Grotesk, sans-serif" font-size="9">Municipal animal squad alert dispatched.</text>
+
+    <!-- Award Footer Badge -->
+    <rect x="20" y="258" width="310" height="42" rx="6" fill="#1e293b"/>
+    <text x="32" y="276" fill="#fbbf24" font-family="Space Grotesk, sans-serif" font-size="11" font-weight="bold">&#127942; 1st Prize Winner &ndash; National Science Expo</text>
+    <text x="32" y="292" fill="#94a3b8" font-family="Space Grotesk, sans-serif" font-size="9">Recognized for Public Safety &amp; Predictive Civic Tech</text>
+  </g>
+</svg>
